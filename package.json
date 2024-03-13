@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "dependencies": {
+        "react-is": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react-is": "^18.2.4"
+    }
+}
