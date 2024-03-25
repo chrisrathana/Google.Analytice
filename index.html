@@ -7,13 +7,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rathanaphon.github.io</title>
+        <title>Rathana.online.online</title>
         <meta name="description" content="https://rathanaphon.github.io/firebas.origin">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="JpaRdNODN2zM-fb-tIxHiGKyMCXJXu8gl3aBUG3A4to" />
         <Link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-        <link rel="preload" href="https://rathanaphon.github.io/firebas.origin/-api-v1/js/56/4/init_index.js" nonce="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg" as="script" />
+        <link rel="nonce" href="https://rathanaphon.github.io/firebas.origin/api-v2/js/56/4/init_index.js" nonce="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg" as="script" />
         <link rel="stylesheet" href="/css.style.css">
     </head>
     <body>
@@ -25,19 +25,20 @@
         <![endif]-->
     <div class="main.java" 
       </div> 
-    <div> 
-    <script src="https://rathanaphon.github.io/firebas.origin/" async defer></script>
+    <div>  
+      <script nonce="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg">
+ <script src="https://rathanaphon.github.io/firebas.origin/" async defer></script>
  <script type="text/JavaScript">
    rpc CreateBook(CreateBookRequest) returns (Book) {
   option (google.api.http) = {
-    post: "/v1/{parent=publishers/*}/books"
+    post: "/v2/{parent=publishers/*}/books"
     body: "book"
     additional_bindings: {
-      post: "/v1/{parent=authors/*}/books"
+      post: "/v2/{parent=authors/*}/books"
       body: "book"
     }
     additional_bindings: {
-      post: "/v1/books"
+      post: "/v2/books"
       body: "book"
     }
   };
