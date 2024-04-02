@@ -1,3 +1,4 @@
+<script type="https://cs.android.com/android/platform/superproject/main/+/main:development/host/windows/Android.bp"</script>
 package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
