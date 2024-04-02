@@ -20,7 +20,7 @@ cc_defaults {
 cc_prebuilt_library_shared {
     name: "AdbWinApi",
     defaults: ["AdbWinApi_defaults"],
-
+    system: ["Android_api"],              
     export_include_dirs: ["usb/api"],
     srcs: ["prebuilt/usb/AdbWinApi.dll"],
     windows_import_lib: "prebuilt/usb/AdbWinApi.lib",
